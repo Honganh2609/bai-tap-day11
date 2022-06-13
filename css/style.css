@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, ‘Segoe UI’, Roboto, Oxygen,
+    Ubuntu, Cantarell, ‘Open Sans’, ‘Helvetica Neue’, sans-serif;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  max-height: 47px;
+}
+/*Column system*/
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+/*Flex-boxing*/
+.text-center {
+  text-align: center;
+}
+.row-wrap {
+  flex-wrap: wrap;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.d-flex {
+  display: flex;
+}
+.a-center {
+  align-items: center;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+.size-16 {
+  font-size: 16px;
+}
+.mgb-24 {
+  margin-bottom: 24px;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  height: 100%;
+}
+.bg-black {
+  background-color: #1d1d1f;
+}
+.main-menu a:link {
+  text-decoration: none;
+  color: #fff;
+}
+.main-menu a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.bg-ip13pro {
+  position: relative;
+  left: 13%;
+  width: 818px;
+  height: 556px;
+  background-size: 818px 556px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/iphone/home/bh/images/overview/hero/iphone_13_pro_hero__gqclakbze4a6_large_2x.png);
+}
+.bg-ip13 {
+  position: relative;
+  left: 13%;
+  width: 770px;
+  height: 400px;
+  background-size: 770px 400px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/iphone/home/bh/images/overview/hero/iphone_13_hero__c7g09yt0mjcm_large_2x.png);
+}
+.bg-ipse {
+  position: relative;
+  left: 13%;
+  width: 494px;
+  height: 830px;
+  background-size: 494px 830px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/iphone/home/bh/images/overview/hero/iphone_se_hero__gd586pazxqqa_large_2x.jpg);
+}
+
+.pdt-100 {
+  padding-top: 100px;
+}
+.mgt-16 {
+  margin-top: 16px;
+}
